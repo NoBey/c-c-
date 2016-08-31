@@ -1,0 +1,14 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Books	/Users/NoBey/c/book.c	/^struct Books$/;"	struct	line:4	file:
+title	/Users/NoBey/c/book.c	/^   char  title[50];$/;"	member	line:6	struct:Books	file:
+author	/Users/NoBey/c/book.c	/^   char  author[50];$/;"	member	line:7	struct:Books	file:
+subject	/Users/NoBey/c/book.c	/^   char  subject[100];$/;"	member	line:8	struct:Books	file:
+book_id	/Users/NoBey/c/book.c	/^   int   book_id;$/;"	member	line:9	struct:Books	file:
+main	/Users/NoBey/c/book.c	/^int main( )$/;"	function	line:12
+PrintN	/Users/NoBey/c/q.c	/^void PrintN( int N ){$/;"	function	line:6	signature:( int N )
+main	/Users/NoBey/c/q.c	/^int main ()$/;"	function	line:12
