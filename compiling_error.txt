@@ -1,0 +1,10 @@
+/Users/NoBey/c-c-/to-time.c:8:9: warning: incompatible pointer types initializing 'char *' with an expression of type 'char (*)[100]' [-Wincompatible-pointer-types]
+  char *timeip=&Time;
+        ^      ~~~~~
+/Users/NoBey/c-c-/to-time.c:11:8: error: definition of variable with array type needs an explicit size or an initializer
+  char tmp[];
+       ^
+/Users/NoBey/c-c-/to-time.c:13:18: warning: format specifies type 'char *' but the argument has type 'char (*)[100]' [-Wformat]
+  scanf("%s %d", &Time, &min);
+         ~~      ^~~~~
+2 warnings and 1 error generated.
