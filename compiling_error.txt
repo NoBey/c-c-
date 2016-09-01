@@ -1,10 +1,17 @@
-/Users/NoBey/c-c-/to-time.c:8:9: warning: incompatible pointer types initializing 'char *' with an expression of type 'char (*)[100]' [-Wincompatible-pointer-types]
-  char *timeip=&Time;
-        ^      ~~~~~
-/Users/NoBey/c-c-/to-time.c:11:8: error: definition of variable with array type needs an explicit size or an initializer
-  char tmp[];
+/Users/NoBey/c-c-/test.c:9:9: warning: incompatible pointer types initializing 'char *' with an expression of type 'char (*)[6]' [-Wincompatible-pointer-types]
+  char *ip = &var;
+        ^    ~~~~
+/Users/NoBey/c-c-/test.c:10:8: warning: implicitly declaring library function 'strlen' with type 'unsigned long (const char *)' [-Wimplicit-function-declaration]
+  ii = strlen(var);
        ^
-/Users/NoBey/c-c-/to-time.c:13:18: warning: format specifies type 'char *' but the argument has type 'char (*)[100]' [-Wformat]
-  scanf("%s %d", &Time, &min);
-         ~~      ^~~~~
-2 warnings and 1 error generated.
+/Users/NoBey/c-c-/test.c:10:8: note: include the header <string.h> or explicitly provide a declaration for 'strlen'
+/Users/NoBey/c-c-/test.c:11:8: error: definition of variable with array type needs an explicit size or an initializer
+  char ll[];
+       ^
+/Users/NoBey/c-c-/test.c:15:15: warning: incompatible integer to pointer conversion passing 'int' to parameter of type 'const char *' [-Wint-conversion]
+    i =  atoi('2');
+              ^~~
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/usr/include/stdlib.h:132:23: note: passing argument to parameter here
+int      atoi(const char *);
+                          ^
+3 warnings and 1 error generated.
