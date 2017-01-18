@@ -1,10 +1,14 @@
 #include <iostream>
+
 using namespace std;
 
-// main() 是程序开始执行的地方
-
-int main()
+int main( )
 {
-   cout << "Hello World"; // 输出 Hello World
-   return 0;
+   char name[50];
+
+   cin >> name;
+   
+   std::cout << "/* message */" << '\n';
+   cout << "您的名称是： " << name << endl;
+
 }
