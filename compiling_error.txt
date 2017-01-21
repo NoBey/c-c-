@@ -1,0 +1,7 @@
+/Users/NoBey/c-c-/list.cpp:10:22: error: C++ requires a type specifier for all declarations
+      void initList(*L){
+                     ^
+/Users/NoBey/c-c-/list.cpp:12:9: error: void function 'initList' should not return a value [-Wreturn-type]
+        return Data;
+        ^      ~~~~
+2 errors generated.
